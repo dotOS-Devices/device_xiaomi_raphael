@@ -25,6 +25,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
-# Dex2oat
+# Seamless transfer
 PRODUCT_PRODUCT_PROPERTIES += \
-     dalvik.vm.dex2oat64.enabled=true
+    sys.fflag.override.settings_seamless_transfer=true
