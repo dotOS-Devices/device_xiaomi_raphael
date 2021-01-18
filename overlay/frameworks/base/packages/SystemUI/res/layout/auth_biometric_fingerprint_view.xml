@@ -108,7 +108,8 @@
             android:textSize="13sp"
             android:gravity="center_vertical"
             android:accessibilityLiveRegion="polite"
-            android:textColor="@color/biometric_dialog_gray"/>
+            android:textColor="@color/biometric_dialog_gray"
+            android:visibility="gone"/>
     </LinearLayout>
 
 </com.android.systemui.biometrics.AuthBiometricFingerprintView>
