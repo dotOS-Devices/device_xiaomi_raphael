@@ -159,6 +159,9 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# WiFi
+WIFI_HIDL_FEATURE_AWARE := false
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/raphael/BoardConfigVendor.mk
 
