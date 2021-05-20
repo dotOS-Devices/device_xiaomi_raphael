@@ -23,7 +23,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-havoc
+    $(LOCAL_PATH)/overlay-dot
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     BluetoothQti
 
 # Board
-PRODUCT_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
 # Camera
@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    vendor/havoc/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/dot/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
     	
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.raphael

@@ -443,5 +443,8 @@
          meanings. -->
     <integer name="config_defaultRingVibrationIntensity">3</integer>
 
+    <!-- Enable LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">false</bool>
+
 </resources>
 
