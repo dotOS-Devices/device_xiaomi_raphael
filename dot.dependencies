@@ -1,0 +1,7 @@
+[ 
+ {
+    "repository" : "proprietary_vendor_xiaomi_raphael",
+    "target_path": "vendor/xiaomi",
+    "branch"     : "dot11"
+  }
+]
