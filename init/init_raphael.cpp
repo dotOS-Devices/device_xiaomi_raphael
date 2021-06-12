@@ -104,21 +104,21 @@ void vendor_load_properties() {
         model = "Mi 9T Pro";
         device = "raphael";
         fingerprint =
-                "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V12.0.4.0.QFKMIXM:user/release-keys";
-        description = "raphael-user 10 QKQ1.190825.002 V12.0.4.0.QFKMIXM release-keys";
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
+        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
         mod_device = "raphael_global";
     } else if (region == "CN") {
         model = "Redmi K20 Pro";
         device = "raphael";
         fingerprint =
-                "Xiaomi/raphael/raphael:11/RKQ1.200826.002/21.4.12:user/release-keys";
-        description = "raphael-user 11 RKQ1.200826.002 21.4.12 release-keys";
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
+        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
     } else if (region == "INDIA") {
         model = "Redmi K20 Pro";
         device = "raphaelin";
         fingerprint =
-                "Xiaomi/raphaelin/raphaelin:10/QKQ1.190825.002/V12.0.5.0.QFKINXM:user/release-keys";
-        description = "raphaelin-user 10 QKQ1.190825.002 V12.0.5.0.QFKINXM release-keys";
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
+        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
         mod_device = "raphaelin_in_global";
     }
 
