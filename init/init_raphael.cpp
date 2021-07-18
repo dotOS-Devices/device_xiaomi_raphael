@@ -104,21 +104,21 @@ void vendor_load_properties() {
         model = "Mi 9T Pro";
         device = "raphael";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
         mod_device = "raphael_global";
     } else if (region == "CN") {
         model = "Redmi K20 Pro";
         device = "raphael";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
     } else if (region == "INDIA") {
         model = "Redmi K20 Pro";
         device = "raphaelin";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-        description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
         mod_device = "raphaelin_in_global";
     }
 
