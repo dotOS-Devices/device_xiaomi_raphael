@@ -104,21 +104,21 @@ void vendor_load_properties() {
         model = "Mi 9T Pro";
         device = "raphael";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
-        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
+                "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+        description = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
         mod_device = "raphael_global";
     } else if (region == "CN") {
         model = "Redmi K20 Pro";
         device = "raphael";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
-        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
+                "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+        description = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
     } else if (region == "INDIA") {
         model = "Redmi K20 Pro";
         device = "raphaelin";
         fingerprint =
-                "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
-        description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
+                "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+        description = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
         mod_device = "raphaelin_in_global";
     }
 
@@ -132,6 +132,7 @@ void vendor_load_properties() {
 
     property_override("ro.boot.hardware.revision", hardware_revision.c_str());
     property_override("ro.oem_unlock_supported", "0");
+    property_override("ro.boot.verifiedbootstate", "green");
 
     load_dalvikvm_properties();
 }
